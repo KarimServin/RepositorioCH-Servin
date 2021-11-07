@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto </title>
+    <link href="../css/estilo.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">  
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+<header class="gridmenu">
+<img class="logo" src="../media/logo.png" alt="logo" width="176" height="75">
+<nav class="menu">
+    <ul>  <!-- VERIFICAR LINKEO--> 
+        <li><a href="../index.html">INICIO</a></li>
+        <li><a href="productos.html">PRODUCTOS</a></li>
+        <li><a href="trabajosrealizados.html">TRABAJOS REALIZADOS</a></li>
+        <li><a href="nuevotaller.html">NUEVO TALLER</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+    </ul>
+</nav>
+</header>
+
+<section> <!-- //////////////////////////////////////////////////////ACA COMIENZA  LA PARTE DISTINTA --> 
+
+    <form action="">
+
+        <label for="nombre">Nombre:</label>
+        <input
+    type="text"
+    name="nombre"
+    id="nombre"
+    placeholder="Ingrese su nombre"
+    required
+        />
+        
+        <select genero="genero">
+            <option value="H">Masculino</option>
+            <option value="M">Femenino</option>
+            <option value="M">Otro</option>
+
+        </select>
+        
+        <label for="email">Correo electrónico de contacto:</label>
+        <input size=25
+    type="text"
+    name="email"
+    id="email"
+    placeholder="Ingrese su correo electrónico"
+    required
+        />
+    
+        <label for="telefono">Teléfono de contacto:</label>
+        <input size=25 
+    type="text"
+    name="telefono"
+    id="telefono"
+    placeholder="Codigo de área y número sin 15"
+    required
+        />
+    <div class="BooleanRadio">
+    <input type="radio" name="contact" value="email" /> Deseo ser contactado preferentemente por correo electrónico
+    <input type="radio" name="contact" value="telefono"/> Deseo ser contactado preferentemente por teléfono 
+    </div> 
+    <div class="BooleanCheck"><input type="checkbox" name="acepta" value="1" /> Deseo ser contactado vía correo electrónico para recibir ofertas y promociones de la empresa.</div> 
+    
+    <label for="mensaje">¿Qué desea consultar?</label>
+        
+        
+    <textarea name="mensaje" id="mensaje" cols="45" rows="15" placeholder="Escriba su consulta aquí..."></textarea>
+        
+    <input type="submit" value="ENVIAR" /> <input type="reset" value="LIMPIAR" />
+    Su consulta será respondida lo antes posible, gracias por contactarnos. 
+    
+    
+    
+    </form>
+
+
+
+</section>   <!-- //////////////////////////////////////////////////////ACA TERMINA  LA PARTE DISTINTA --> 
+
+
+<footer>
+<p> © Copyright 2021 KS Sport Detailing </p>
+</footer> 
+
+
+
+
+</body>
+</html>
