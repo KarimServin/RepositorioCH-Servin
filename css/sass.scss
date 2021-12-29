@@ -12,8 +12,14 @@ html {
 
 body {
    background-color: #000000;
-    h2 {
+   h1 {
+@include lafuente;
+color: white;
 
+   } 
+   
+   h2 {
+color: white;
         @include lafuente;
         span {
             color: red;

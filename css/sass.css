@@ -6,7 +6,13 @@ body {
   background-color: #000000;
 }
 
+body h1 {
+  font-family: "Readex Pro", sans-serif !important;
+  color: white;
+}
+
 body h2 {
+  color: white;
   font-family: "Readex Pro", sans-serif !important;
 }
 
