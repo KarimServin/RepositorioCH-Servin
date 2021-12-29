@@ -10,6 +10,10 @@ body h2 {
   font-family: "Readex Pro", sans-serif !important;
 }
 
+body h2 span {
+  color: red;
+}
+
 body li a {
   font-family: "Readex Pro", sans-serif !important;
 }
@@ -22,13 +26,5 @@ body button {
 body a {
   color: white !important;
   font-family: "Readex Pro", sans-serif !important;
-}
-
-h2 {
-  color: white;
-}
-
-h2 span {
-  color: red;
 }
 /*# sourceMappingURL=sass.css.map */
