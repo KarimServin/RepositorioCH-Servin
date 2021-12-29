@@ -1,56 +1,243 @@
-<!DOCTYPE html>
-
-
+<!doctype html>
 <html lang="en">
+
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KS Sport </title>
-    <link href="./css/estilo.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+     <!-- Required meta tags -->
+<!-- seo -->
+     <meta name="description" content="Conozca el concesionario más exclusivo del país. Más de 15 años de experiencia.">
+     <meta name="keywords" content="dealership concesionario autos exoticos argentina lujo puerto madero san telmo">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- CSS SASS -->
+    <link href="css/sass.css" rel="stylesheet" type="text/css">;
+     <!-- FUENTE GOOGLE FONTS -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Servin Dealership - Autos de lujo</title>
 </head>
 
+
+
 <body>
+   <!-- NAVBAR ------------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-dark" >
+        <div class="container-fluid">
+          
+          <img src="logo.png" alt="logo" width=150 height=75 class="d-inline-block align-text-top">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/dealership.html">Dealership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ <!--NAVBARRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR -->
 
 
 
 
-
-
-
-
-<header class="gridmenu">
-<img class="logo" src="./media/logo.png" alt="logo" width="176" height="75">
-<nav class="menu">
-    <ul>  <!-- VERIFICAR LINKEO--> 
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="./pages/productos.html">PRODUCTOS</a></li>
-        <li><a href="./pages/trabajosrealizados.html">TRABAJOS REALIZADOS</a></li>
-        <li><a href="./pages/nuevotaller.html">NUEVO TALLER</a></li>
-        <li><a href="./pages/contacto.html">CONTACTO</a></li>
-    </ul>
-</nav>
-</header>
-
-<section> <!-- //////////////////////////////////////////////////////ACA COMIENZA  LA PARTE DISTINTA --> 
-<div class="imagen">
-    <div class="texto">
-<h1>TU AUTO COMO NUNCA ANTES LO VISTE</h1>
-<p>Nos dedicamos a la estética vehicular desde hace más de 15 años, trabajando con los productos más avanzados del mundo. </p>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img src="./img/1.png"   class="d-block w-100" alt="primera foto carousel">
+       <div class="absolute-div">
+        <div class="carousel-caption">
+          <h2>LO MEJOR O NADA</h2>
+          <p>Más de 15 años de trayectoria</p>
+      </div>
+    </div>
+     </div>
+     <div class="carousel-item">
+       <img src="./img/2.png"   class="d-block w-100" alt="segunda foto carousel">
+       <div class="absolute-div">
+        <div class="carousel-caption">
+          <h2>LO MEJOR O NADA</h2>
+          <p>Más de 15 años de trayectoria</p>
+      </div>
+    </div>
+     </div>
+     <div class="carousel-item">
+       <img src="./img/3.png"   class="d-block w-100" alt="tercera foto carousel">
+       <div class="absolute-div">
+        <div class="carousel-caption">
+          <h2>LO MEJOR O NADA</h2>
+          <p>Más de 15 años de trayectoria</p>
+      </div>
+    </div>
+     </div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+   </button>
+ </div>
+ 
+ <div class="row my-3 p-2">
+  <div class="col-sm-4 ">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">La mejor financiación del mercado</h5>
+        <p class="card-text">Le financiamos hasta el 70% del valor del vehículo.</p>
+        <a href="#" class="btn btn-dark">Ver financiación</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 ">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Tomamos vehículos en parte de pago</h5>
+        <p class="card-text">La mejor cotización del país.</p>
+        <a href="#" class="btn btn-dark">Solicitar cotización</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 ">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Test drive </h5>
+        <p class="card-text">Pruebe el auto de sus sueños</p>
+        <a href="#" class="btn btn-dark">Solicitar test drive</a>
+      </div>
+    </div>
+  </div>
 </div>
+
+<h2 class="text-center padding-top-5 p-3 my-3"> Conozca nuestro nuevo concesionario</h2>
+
+    <img src="https://images.pexels.com/photos/9024825/pexels-photo-9024825.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid text-center mx-auto d-block p-3 my-3"  alt="foto del nuevo concesionario"> 
+
+<div class="text-center p-2 my-2">
+    <button class="btn btn-light text-center">Ver ubicación</button>
 </div>
 
 
-</section>   <!-- //////////////////////////////////////////////////////ACA TERMINA  LA PARTE DISTINTA --> 
+<!--EL FOOOOOOOTER --------------------------------------------------------------------------->
+
+<div class="container my- p-3 my-3">
+
+  <footer class="text-center text-lg-start border-top  mt-xl-5 pt-4">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Nosotros</h5>
+
+        <ul class="list-unstyled mb-4">
+          <li>
+            <a href="#!" class="text-white">Nuestro equipo</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Nuestra trayectoria</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Nuestro objetivo</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Nuestros clientes</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Asistencia</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Contactar un asesor</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Garantía</a>
+          </li>
+          
+          <li>
+            <a href="#!" class="text-white">Financiación</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Trabaje con nosotros</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Oferta laboral</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Suscríbase a nuestro newsletter</h5>
+
+        <div class="form-outline form-white mb-4">
+          <input type="email" id="form5Example2" class="form-control" placeholder="Ingrese su email" />
+          <label class="form-label" for="form5Example2"></label>
+        </div>
+
+        <button type="submit" class="btn btn-light btn-block">Enviar</button>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 border-top border-white">
+    © Copyright Servin Premium Dealership. Todos los derechos reservados.
+  </div>
+  <!-- Copyright -->
+</footer>
+</div>
+<!--EL FOOOOOOOTER --------------------------------------------------------------------------->
 
 
-<footer>
-<p> © Copyright 2021 KS Sport Detailing </p>
-</footer> 
 
 
 
 
-</body>
+  
+
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+
+</body> 
 </html>

@@ -1,0 +1,34 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #000000;
+}
+
+body h2 {
+  font-family: "Readex Pro", sans-serif !important;
+}
+
+body li a {
+  font-family: "Readex Pro", sans-serif !important;
+}
+
+body button {
+  color: black !important;
+  font-family: "Readex Pro", sans-serif !important;
+}
+
+body a {
+  color: white !important;
+  font-family: "Readex Pro", sans-serif !important;
+}
+
+h2 {
+  color: white;
+}
+
+h2 span {
+  color: red;
+}
+/*# sourceMappingURL=sass.css.map */

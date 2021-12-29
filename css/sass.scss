@@ -1,0 +1,52 @@
+$fuente: 'Readex Pro', sans-serif;
+
+
+@mixin lafuente {
+  font-family: $fuente !important;
+}
+
+html {
+    overflow-x: hidden;
+
+}
+
+body {
+   background-color: #000000;
+    h2 {
+
+        @include lafuente;
+    
+
+}
+
+li {
+a {
+    @include lafuente;
+
+}
+}
+
+button {
+
+    color: black !important;
+    @include lafuente;
+    
+}
+
+a {
+    color: white !important;
+    @include lafuente;
+
+}
+
+}
+
+
+h2 {
+    color: white;
+span {
+
+    color: red;
+}
+
+}

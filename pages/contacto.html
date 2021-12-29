@@ -1,104 +1,210 @@
-<!DOCTYPE html>
-
-
+<!doctype html>
 <html lang="en">
+
 <head>
+    <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto </title>
-    <link href="../css/estilo.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- seo -->
+<meta name="description" content="Formulario de contacto. Reciba asistencia de nuestros asesores.">
+<meta name="keywords" content="dealership concesionario autos exoticos argentina lujo puerto madero san telmo">
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    
+       
+    <!-- CSS SASS -->
+    <link href="../css/sass.css" rel="stylesheet" type="text/css">;
+    <!-- FUENTE GOOGLE FONTS -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap" rel="stylesheet">
+    
+    <title>Contacto</title>
 </head>
 
-<body>
+
+
+<body >
+   <!-- NAVBAR ------------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          
+          <img src="../logo.png" alt="logo" width=150 height=75 class="d-inline-block align-text-top">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="ofertas.html">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="dealership.html">Dealership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+ <!--NAVBAR -->
+
+
+
+<div class="container"> <div class=" text-center mt-5 ">
+  <h1 class="text-center text-white">FORMULARIO DE CONTACTO</h1>
+</div>
+<div class="row ">
+  <div class="col-lg-7 mx-auto">
+      <div class="card mt-2 mx-auto p-4 bg-light">
+          <div class="card-body bg-light">
+              <div class="container">
+                  <form id="contact-form" role="form">
+                      <div class="controls">
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <div class="form-group"> <label for="form_name">Nombre *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Ingrese su nombre aquí *" required="required" data-error="Se requiere su nombre."> </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-group"> <label for="form_lastname">Apellido </label> <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Ingrese su apellido aquí "> </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Por favor ingrese su email *" required="required" data-error="Se requiere su email."> </div>
+                              </div>
+                             
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="form-group"> <label for="form_message">Mensaje</label> <textarea id="form_message" name="message" class="form-control" placeholder="Escriba su inquietud aquí" rows="4" required="required" data-error="Por favor, escriba su consulta."></textarea> </div>
+                              </div>
+                              <div class="col-md-12"> <input type="submit" class="btn btn-dark btn-send col-12 my-1 pt-2 btn-block " value="Enviar consulta"> </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div> <!-- /.8 -->
+  </div> <!-- /.row-->
+</div>
+</div>
+
+
+<div>
+<h2 class="text-center text-white p-3 my-3">Estamos para ayudarle</h2>
+    <img class="my-5 img-fluid d-inline-block p-2" src="https://images.pexels.com/photos/7682340/pexels-photo-7682340.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+    <h2 class="text-center text-white">Las 24 horas. Los 365 días del año.</h2>
+</div>
+
+
+
+<!--EL FOOOOOOOTER --------------------------------------------------------------------------->
+
+<div class="container my- p-3 my-3">
+
+  <footer class="text-center text-lg-start border-top  mt-xl-5 pt-4">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Nosotros</h5>
+
+        <ul class="list-unstyled mb-4">
+          <li>
+            <a href="#!" class="text-white">Nuestro equipo</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Nuestra trayectoria</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Nuestro objetivo</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Nuestros clientes</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Asistencia</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Contactar un asesor</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Garantía</a>
+          </li>
+          
+          <li>
+            <a href="#!" class="text-white">Financiación</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Trabaje con nosotros</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">Oferta laboral</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <h5 class="text-uppercase mb-4 text-white">Suscríbase a nuestro newsletter</h5>
+
+        <div class="form-outline form-white mb-4">
+          <input type="email" id="form5Example2" class="form-control" placeholder="Ingrese su email" />
+          <label class="form-label" for="form5Example2"></label>
+        </div>
+
+        <button type="submit" class="btn btn-light btn-block">Enviar</button>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3 border-top border-white">
+    © Copyright Servin Premium Dealership. Todos los derechos reservados.
+  </div>
+  <!-- Copyright -->
+</footer>
+</div>
+<!--EL FOOOOOOOTER --------------------------------------------------------------------------->
 
 
 
 
 
 
+  
 
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
 
-<header class="gridmenu">
-<img class="logo" src="../media/logo.png" alt="logo" width="176" height="75">
-<nav class="menu">
-    <ul>  <!-- VERIFICAR LINKEO--> 
-        <li><a href="../index.html">INICIO</a></li>
-        <li><a href="productos.html">PRODUCTOS</a></li>
-        <li><a href="trabajosrealizados.html">TRABAJOS REALIZADOS</a></li>
-        <li><a href="nuevotaller.html">NUEVO TALLER</a></li>
-        <li><a href="contacto.html">CONTACTO</a></li>
-    </ul>
-</nav>
-</header>
-
-<section> <!-- //////////////////////////////////////////////////////ACA COMIENZA  LA PARTE DISTINTA --> 
-
-    <form action="">
-
-        <label for="nombre">Nombre:</label>
-        <input
-    type="text"
-    name="nombre"
-    id="nombre"
-    placeholder="Ingrese su nombre"
-    required
-        />
-        
-        <select genero="genero">
-            <option value="H">Masculino</option>
-            <option value="M">Femenino</option>
-            <option value="M">Otro</option>
-
-        </select>
-        
-        <label for="email">Correo electrónico de contacto:</label>
-        <input size=25
-    type="text"
-    name="email"
-    id="email"
-    placeholder="Ingrese su correo electrónico"
-    required
-        />
-    
-        <label for="telefono">Teléfono de contacto:</label>
-        <input size=25 
-    type="text"
-    name="telefono"
-    id="telefono"
-    placeholder="Codigo de área y número sin 15"
-    required
-        />
-    <div class="BooleanRadio">
-    <input type="radio" name="contact" value="email" /> Deseo ser contactado preferentemente por correo electrónico
-    <input type="radio" name="contact" value="telefono"/> Deseo ser contactado preferentemente por teléfono 
-    </div> 
-    <div class="BooleanCheck"><input type="checkbox" name="acepta" value="1" /> Deseo ser contactado vía correo electrónico para recibir ofertas y promociones de la empresa.</div> 
-    
-    <label for="mensaje">¿Qué desea consultar?</label>
-        
-        
-    <textarea name="mensaje" id="mensaje" cols="45" rows="15" placeholder="Escriba su consulta aquí..."></textarea>
-        
-    <input type="submit" value="ENVIAR" /> <input type="reset" value="LIMPIAR" />
-    Su consulta será respondida lo antes posible, gracias por contactarnos. 
-    
-    
-    
-    </form>
-
-
-
-</section>   <!-- //////////////////////////////////////////////////////ACA TERMINA  LA PARTE DISTINTA --> 
-
-
-<footer>
-<p> © Copyright 2021 KS Sport Detailing </p>
-</footer> 
-
-
-
-
-</body>
+</body> 
 </html>
